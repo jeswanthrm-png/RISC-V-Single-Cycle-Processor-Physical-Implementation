@@ -1,0 +1,19 @@
+{
+    "DESIGN_NAME": "riscv_core",
+    "VERILOG_FILES": "dir::../rtl/*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "FP_CORE_UTIL": 45,
+    "PL_TARGET_DENSITY": 0.48,
+    "FP_PDN_CORE_RING": 1,
+    "SYNTH_MAX_FANOUT": 5,
+    "DIODE_INSERTION_STRATEGY": 4,
+    "ROUTING_CORES": 8,
+    "RUN_MAGIC": 1,
+    "RUN_ROUTING": 1,
+    "MAGIC_DRC_USE_GDS": 1,
+    "RUN_LVS": 1,
+    "QUIT_ON_TIMING_VIOLATIONS": 1,
+    "QUIT_ON_MAGIC_DRC": 1,
+    "QUIT_ON_LVS_ERROR": 1
+}

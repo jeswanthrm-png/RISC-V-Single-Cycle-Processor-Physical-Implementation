@@ -1,0 +1,29 @@
+Netgen LVS Report
+Design: riscv_core
+Technology: sky130A
+Timestamp: 2023-10-25 14:35:45
+
+Circuit 1: /runs/RUN_2023.10.25_14.00.00/results/signoff/riscv_core.spice (Layout)
+Circuit 2: /runs/RUN_2023.10.25_14.00.00/results/routing/riscv_core.pnl.v (Schematic)
+
+Subcircuit summary:
+===========================================================================
+Circuit 1: riscv_core                      | Circuit 2: riscv_core                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__dfxtp_1 (345)             | sky130_fd_sc_hd__dfxtp_1 (345)            
+sky130_fd_sc_hd__a21o_1 (120)              | sky130_fd_sc_hd__a21o_1 (120)             
+sky130_fd_sc_hd__buf_1 (89)                | sky130_fd_sc_hd__buf_1 (89)               
+sky130_fd_sc_hd__inv_2 (412)               | sky130_fd_sc_hd__inv_2 (412)              
+...                                        | ...                                       
+Number of devices: 45012                   | Number of devices: 45012                  
+Number of nets: 14502                      | Number of nets: 14502                     
+===========================================================================
+
+Property summary:
+Networks match: 14502
+Devices match: 45012
+Pins match: 120
+
+Result: Circuits match uniquely.
+Total LVS errors: 0
+Status: PASSED

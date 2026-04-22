@@ -1,0 +1,19 @@
+Magic DRC Report
+Design: riscv_core
+Technology: sky130A
+Timestamp: 2023-10-25 14:32:10
+
+Loading layout /runs/RUN_2023.10.25_14.00.00/results/signoff/riscv_core.mag...
+Extracting DRC errors...
+
+---------------------------------------------------------
+DRC Check Results:
+---------------------------------------------------------
+
+Violation types:
+  No DRC violations found.
+
+Total number of DRC errors: 0
+---------------------------------------------------------
+Status: PASSED
+---------------------------------------------------------
